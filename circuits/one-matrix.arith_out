@@ -1,0 +1,8 @@
+total 5
+input 0                                  # one-input
+input 1                                  # input
+input 2                                  # input
+quad_gate in 3 <0 1 2> out 1 <3>         # _0_ * (2*_1_ + 2*_2_)
+quad_gate in 2 <0 1> out 1 <4>           # _0_ * _1_
+output 3
+output 4

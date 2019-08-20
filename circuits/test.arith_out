@@ -1,0 +1,6 @@
+total 7
+input 0                                  # one-input
+input 1                                  # input
+split in 1 <1> out 4 <2 3 4 5>
+quad_gate in 4 <0 2 3 5> out 1 <6>       # (_2_ + 2*_3_ + 8*_5_) * _0_
+output 6

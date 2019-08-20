@@ -1,0 +1,130 @@
+total 113
+input 0                                  # one-input
+input 1                                  # input
+input 2                                  # input
+input 3                                  # input
+input 4                                  # input
+input 5                                  # input
+input 6                                  # input
+input 7                                  # input
+input 8                                  # input
+input 9                                  # input
+input 10                                 # input
+input 11                                 # input
+input 12                                 # input
+input 13                                 # input
+input 14                                 # input
+input 15                                 # input
+input 16                                 # input
+input 17                                 # input
+input 18                                 # input
+input 19                                 # input
+input 20                                 # input
+input 21                                 # input
+input 22                                 # input
+input 23                                 # input
+input 24                                 # input
+input 25                                 # input
+input 26                                 # input
+input 27                                 # input
+input 28                                 # input
+input 29                                 # input
+input 30                                 # input
+input 31                                 # input
+input 32                                 # input
+quad_gate in 2 <4 29> out 1 <45>         # _4_ * _29_
+quad_gate in 2 <3 25> out 1 <41>         # _3_ * _25_
+quad_gate in 2 <2 21> out 1 <37>         # _2_ * _21_
+quad_gate in 2 <1 17> out 1 <33>         # _1_ * _17_
+quad_gate in 2 <4 30> out 1 <46>         # _4_ * _30_
+quad_gate in 2 <3 26> out 1 <42>         # _3_ * _26_
+quad_gate in 2 <2 22> out 1 <38>         # _2_ * _22_
+quad_gate in 2 <1 18> out 1 <34>         # _1_ * _18_
+quad_gate in 2 <4 31> out 1 <47>         # _4_ * _31_
+quad_gate in 2 <3 27> out 1 <43>         # _3_ * _27_
+quad_gate in 2 <2 23> out 1 <39>         # _2_ * _23_
+quad_gate in 2 <1 19> out 1 <35>         # _1_ * _19_
+quad_gate in 2 <4 32> out 1 <48>         # _4_ * _32_
+quad_gate in 2 <3 28> out 1 <44>         # _3_ * _28_
+quad_gate in 2 <2 24> out 1 <40>         # _2_ * _24_
+quad_gate in 2 <1 20> out 1 <36>         # _1_ * _20_
+quad_gate in 2 <8 29> out 1 <61>         # _8_ * _29_
+quad_gate in 2 <7 25> out 1 <57>         # _7_ * _25_
+quad_gate in 2 <6 21> out 1 <53>         # _6_ * _21_
+quad_gate in 2 <5 17> out 1 <49>         # _5_ * _17_
+quad_gate in 2 <8 30> out 1 <62>         # _8_ * _30_
+quad_gate in 2 <7 26> out 1 <58>         # _7_ * _26_
+quad_gate in 2 <6 22> out 1 <54>         # _6_ * _22_
+quad_gate in 2 <5 18> out 1 <50>         # _5_ * _18_
+quad_gate in 2 <8 31> out 1 <63>         # _8_ * _31_
+quad_gate in 2 <7 27> out 1 <59>         # _7_ * _27_
+quad_gate in 2 <6 23> out 1 <55>         # _6_ * _23_
+quad_gate in 2 <5 19> out 1 <51>         # _5_ * _19_
+quad_gate in 2 <8 32> out 1 <64>         # _8_ * _32_
+quad_gate in 2 <7 28> out 1 <60>         # _7_ * _28_
+quad_gate in 2 <6 24> out 1 <56>         # _6_ * _24_
+quad_gate in 2 <5 20> out 1 <52>         # _5_ * _20_
+quad_gate in 2 <12 29> out 1 <77>        # _12_ * _29_
+quad_gate in 2 <11 25> out 1 <73>        # _11_ * _25_
+quad_gate in 2 <10 21> out 1 <69>        # _10_ * _21_
+quad_gate in 2 <9 17> out 1 <65>         # _9_ * _17_
+quad_gate in 2 <12 30> out 1 <78>        # _12_ * _30_
+quad_gate in 2 <11 26> out 1 <74>        # _11_ * _26_
+quad_gate in 2 <10 22> out 1 <70>        # _10_ * _22_
+quad_gate in 2 <9 18> out 1 <66>         # _9_ * _18_
+quad_gate in 2 <12 31> out 1 <79>        # _12_ * _31_
+quad_gate in 2 <11 27> out 1 <75>        # _11_ * _27_
+quad_gate in 2 <10 23> out 1 <71>        # _10_ * _23_
+quad_gate in 2 <9 19> out 1 <67>         # _9_ * _19_
+quad_gate in 2 <12 32> out 1 <80>        # _12_ * _32_
+quad_gate in 2 <11 28> out 1 <76>        # _11_ * _28_
+quad_gate in 2 <10 24> out 1 <72>        # _10_ * _24_
+quad_gate in 2 <9 20> out 1 <68>         # _9_ * _20_
+quad_gate in 2 <16 29> out 1 <93>        # _16_ * _29_
+quad_gate in 2 <15 25> out 1 <89>        # _15_ * _25_
+quad_gate in 2 <14 21> out 1 <85>        # _14_ * _21_
+quad_gate in 2 <13 17> out 1 <81>        # _13_ * _17_
+quad_gate in 2 <16 30> out 1 <94>        # _16_ * _30_
+quad_gate in 2 <15 26> out 1 <90>        # _15_ * _26_
+quad_gate in 2 <14 22> out 1 <86>        # _14_ * _22_
+quad_gate in 2 <13 18> out 1 <82>        # _13_ * _18_
+quad_gate in 2 <16 31> out 1 <95>        # _16_ * _31_
+quad_gate in 2 <15 27> out 1 <91>        # _15_ * _27_
+quad_gate in 2 <14 23> out 1 <87>        # _14_ * _23_
+quad_gate in 2 <13 19> out 1 <83>        # _13_ * _19_
+quad_gate in 2 <16 32> out 1 <96>        # _16_ * _32_
+quad_gate in 2 <15 28> out 1 <92>        # _15_ * _28_
+quad_gate in 2 <14 24> out 1 <88>        # _14_ * _24_
+quad_gate in 2 <13 20> out 1 <84>        # _13_ * _20_
+quad_gate in 5 <0 33 37 41 45> out 1 <97> # _0_ * (_33_ + _37_ + _41_ + _45_)
+quad_gate in 5 <0 34 38 42 46> out 1 <98> # _0_ * (_34_ + _38_ + _42_ + _46_)
+quad_gate in 5 <0 35 39 43 47> out 1 <99> # _0_ * (_35_ + _39_ + _43_ + _47_)
+quad_gate in 5 <0 36 40 44 48> out 1 <100> # _0_ * (_36_ + _40_ + _44_ + _48_)
+quad_gate in 5 <0 49 53 57 61> out 1 <101> # _0_ * (_49_ + _53_ + _57_ + _61_)
+quad_gate in 5 <0 50 54 58 62> out 1 <102> # _0_ * (_50_ + _54_ + _58_ + _62_)
+quad_gate in 5 <0 51 55 59 63> out 1 <103> # _0_ * (_51_ + _55_ + _59_ + _63_)
+quad_gate in 5 <0 52 56 60 64> out 1 <104> # _0_ * (_52_ + _56_ + _60_ + _64_)
+quad_gate in 5 <0 65 69 73 77> out 1 <105> # _0_ * (_65_ + _69_ + _73_ + _77_)
+quad_gate in 5 <0 66 70 74 78> out 1 <106> # _0_ * (_66_ + _70_ + _74_ + _78_)
+quad_gate in 5 <0 67 71 75 79> out 1 <107> # _0_ * (_67_ + _71_ + _75_ + _79_)
+quad_gate in 5 <0 68 72 76 80> out 1 <108> # _0_ * (_68_ + _72_ + _76_ + _80_)
+quad_gate in 5 <0 81 85 89 93> out 1 <109> # _0_ * (_81_ + _85_ + _89_ + _93_)
+quad_gate in 5 <0 82 86 90 94> out 1 <110> # _0_ * (_82_ + _86_ + _90_ + _94_)
+quad_gate in 5 <0 83 87 91 95> out 1 <111> # _0_ * (_83_ + _87_ + _91_ + _95_)
+quad_gate in 5 <0 84 88 92 96> out 1 <112> # _0_ * (_84_ + _88_ + _92_ + _96_)
+output 97
+output 98
+output 99
+output 100
+output 101
+output 102
+output 103
+output 104
+output 105
+output 106
+output 107
+output 108
+output 109
+output 110
+output 111
+output 112

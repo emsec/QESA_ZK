@@ -1,0 +1,7 @@
+total 7
+input 0                                  # one-input
+input 1                                  # input
+split in 1 <1> out 4 <2 3 4 5>
+const-mul-0 in 1 <4> out 1 <6>
+pack in 4 <2 3 6 5> out 1 <7>
+output 7

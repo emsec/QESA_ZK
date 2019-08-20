@@ -1,0 +1,179 @@
+total 162
+input 0                                  # input
+input 1                                  # input
+input 2                                  # input
+input 3                                  # input
+input 4                                  # input
+input 5                                  # input
+input 6                                  # input
+input 7                                  # input
+input 8                                  # input
+input 9                                  # input
+input 10                                 # input
+input 11                                 # input
+input 12                                 # input
+input 13                                 # input
+input 14                                 # input
+input 15                                 # input
+input 16                                 # input
+input 17                                 # input
+input 18                                 # input
+input 19                                 # input
+input 20                                 # input
+input 21                                 # input
+input 22                                 # input
+input 23                                 # input
+input 24                                 # input
+input 25                                 # input
+input 26                                 # input
+input 27                                 # input
+input 28                                 # input
+input 29                                 # input
+input 30                                 # input
+input 31                                 # input
+input 32                                 # one-input
+const-mul-0 in 1 <32> out 1 <33>         # zero
+mul in 2 <3 28> out 1 <34>               # multiply
+mul in 2 <2 24> out 1 <35>               # multiply
+mul in 2 <1 20> out 1 <36>               # multiply
+mul in 2 <0 16> out 1 <37>               # multiply
+add in 2 <37 36> out 1 <38>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <38 35> out 1 <39>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <39 34> out 1 <40>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <3 29> out 1 <41>               # multiply
+mul in 2 <2 25> out 1 <42>               # multiply
+mul in 2 <1 21> out 1 <43>               # multiply
+mul in 2 <0 17> out 1 <44>               # multiply
+add in 2 <44 43> out 1 <45>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <45 42> out 1 <46>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <46 41> out 1 <47>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <3 30> out 1 <48>               # multiply
+mul in 2 <2 26> out 1 <49>               # multiply
+mul in 2 <1 22> out 1 <50>               # multiply
+mul in 2 <0 18> out 1 <51>               # multiply
+add in 2 <51 50> out 1 <52>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <52 49> out 1 <53>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <53 48> out 1 <54>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <3 31> out 1 <55>               # multiply
+mul in 2 <2 27> out 1 <56>               # multiply
+mul in 2 <1 23> out 1 <57>               # multiply
+mul in 2 <0 19> out 1 <58>               # multiply
+add in 2 <58 57> out 1 <59>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <59 56> out 1 <60>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <60 55> out 1 <61>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <7 28> out 1 <62>               # multiply
+mul in 2 <6 24> out 1 <63>               # multiply
+mul in 2 <5 20> out 1 <64>               # multiply
+mul in 2 <4 16> out 1 <65>               # multiply
+add in 2 <65 64> out 1 <66>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <66 63> out 1 <67>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <67 62> out 1 <68>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <7 29> out 1 <69>               # multiply
+mul in 2 <6 25> out 1 <70>               # multiply
+mul in 2 <5 21> out 1 <71>               # multiply
+mul in 2 <4 17> out 1 <72>               # multiply
+add in 2 <72 71> out 1 <73>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <73 70> out 1 <74>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <74 69> out 1 <75>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <7 30> out 1 <76>               # multiply
+mul in 2 <6 26> out 1 <77>               # multiply
+mul in 2 <5 22> out 1 <78>               # multiply
+mul in 2 <4 18> out 1 <79>               # multiply
+add in 2 <79 78> out 1 <80>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <80 77> out 1 <81>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <81 76> out 1 <82>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <7 31> out 1 <83>               # multiply
+mul in 2 <6 27> out 1 <84>               # multiply
+mul in 2 <5 23> out 1 <85>               # multiply
+mul in 2 <4 19> out 1 <86>               # multiply
+add in 2 <86 85> out 1 <87>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <87 84> out 1 <88>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <88 83> out 1 <89>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <11 28> out 1 <90>              # multiply
+mul in 2 <10 24> out 1 <91>              # multiply
+mul in 2 <9 20> out 1 <92>               # multiply
+mul in 2 <8 16> out 1 <93>               # multiply
+add in 2 <93 92> out 1 <94>              # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <94 91> out 1 <95>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <95 90> out 1 <96>              # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <11 29> out 1 <97>              # multiply
+mul in 2 <10 25> out 1 <98>              # multiply
+mul in 2 <9 21> out 1 <99>               # multiply
+mul in 2 <8 17> out 1 <100>              # multiply
+add in 2 <100 99> out 1 <101>            # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <101 98> out 1 <102>            # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <102 97> out 1 <103>            # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <11 30> out 1 <104>             # multiply
+mul in 2 <10 26> out 1 <105>             # multiply
+mul in 2 <9 22> out 1 <106>              # multiply
+mul in 2 <8 18> out 1 <107>              # multiply
+add in 2 <107 106> out 1 <108>           # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <108 105> out 1 <109>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <109 104> out 1 <110>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <11 31> out 1 <111>             # multiply
+mul in 2 <10 27> out 1 <112>             # multiply
+mul in 2 <9 23> out 1 <113>              # multiply
+mul in 2 <8 19> out 1 <114>              # multiply
+add in 2 <114 113> out 1 <115>           # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <115 112> out 1 <116>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <116 111> out 1 <117>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <15 28> out 1 <118>             # multiply
+mul in 2 <14 24> out 1 <119>             # multiply
+mul in 2 <13 20> out 1 <120>             # multiply
+mul in 2 <12 16> out 1 <121>             # multiply
+add in 2 <121 120> out 1 <122>           # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <122 119> out 1 <123>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <123 118> out 1 <124>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <15 29> out 1 <125>             # multiply
+mul in 2 <14 25> out 1 <126>             # multiply
+mul in 2 <13 21> out 1 <127>             # multiply
+mul in 2 <12 17> out 1 <128>             # multiply
+add in 2 <128 127> out 1 <129>           # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <129 126> out 1 <130>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <130 125> out 1 <131>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <15 30> out 1 <132>             # multiply
+mul in 2 <14 26> out 1 <133>             # multiply
+mul in 2 <13 22> out 1 <134>             # multiply
+mul in 2 <12 18> out 1 <135>             # multiply
+add in 2 <135 134> out 1 <136>           # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <136 133> out 1 <137>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <137 132> out 1 <138>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <15 31> out 1 <139>             # multiply
+mul in 2 <14 27> out 1 <140>             # multiply
+mul in 2 <13 23> out 1 <141>             # multiply
+mul in 2 <12 19> out 1 <142>             # multiply
+add in 2 <142 141> out 1 <143>           # ArithBusReq.AddReq(DFG.Multiply,DFG.Multiply)
+add in 2 <143 140> out 1 <144>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+add in 2 <144 139> out 1 <145>           # ArithBusReq.AddReq(DFG.Add,DFG.Multiply)
+mul in 2 <32 40> out 1 <146>             # output-cast
+output 146                               # 
+mul in 2 <32 47> out 1 <147>             # output-cast
+output 147                               # 
+mul in 2 <32 54> out 1 <148>             # output-cast
+output 148                               # 
+mul in 2 <32 61> out 1 <149>             # output-cast
+output 149                               # 
+mul in 2 <32 68> out 1 <150>             # output-cast
+output 150                               # 
+mul in 2 <32 75> out 1 <151>             # output-cast
+output 151                               # 
+mul in 2 <32 82> out 1 <152>             # output-cast
+output 152                               # 
+mul in 2 <32 89> out 1 <153>             # output-cast
+output 153                               # 
+mul in 2 <32 96> out 1 <154>             # output-cast
+output 154                               # 
+mul in 2 <32 103> out 1 <155>            # output-cast
+output 155                               # 
+mul in 2 <32 110> out 1 <156>            # output-cast
+output 156                               # 
+mul in 2 <32 117> out 1 <157>            # output-cast
+output 157                               # 
+mul in 2 <32 124> out 1 <158>            # output-cast
+output 158                               # 
+mul in 2 <32 131> out 1 <159>            # output-cast
+output 159                               # 
+mul in 2 <32 138> out 1 <160>            # output-cast
+output 160                               # 
+mul in 2 <32 145> out 1 <161>            # output-cast
+output 161                               # 
