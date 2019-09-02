@@ -1,4 +1,4 @@
-from circuit import *
+from internal.circuit import *
 
 def process(circuit):
     last_input = circuit.inputs[-1]

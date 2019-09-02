@@ -1,4 +1,4 @@
-from circuit import *
+from internal.circuit import *
 from sympy import *
 from sympy.parsing.sympy_parser import parse_expr
 

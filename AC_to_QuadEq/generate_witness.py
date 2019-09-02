@@ -2,9 +2,9 @@
 import sys
 import os
 import random
-from arith import ORDER
-from circuit import *
-from parser import parse_arith_circuit
+from internal.arith import ORDER
+from internal.circuit import *
+from internal.parser import parse_arith_circuit
 from sympy import *
 from sympy.parsing.sympy_parser import parse_expr
 

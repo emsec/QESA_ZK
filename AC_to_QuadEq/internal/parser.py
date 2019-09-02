@@ -1,4 +1,4 @@
-from circuit import *
+from internal.circuit import *
 
 def parse_arith_circuit(path):
     with open(path, "rt") as file:

@@ -2,6 +2,7 @@
 
 // Should QESA/LMPA/ShuffleProof use small exponents when appropriate?
 #define USE_SMALL_EXPONENTS false
+// size of small exponents in bit
 #define SMALL_EXP_SIZE 140
 
 // Should there be an IPA used in Bulletproofs, if yes, which:

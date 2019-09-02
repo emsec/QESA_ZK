@@ -31,8 +31,9 @@ namespace qesa
 
     struct SparseMatrix
     {
-        // vector of SparseVector pointer pairs
-        std::vector<  std::tuple<  math::SparseVector<BN>, math::SparseVector<BN>  >  > vectors;
+        // Vector of SparseVector pairs
+        // Cf. Section Implementation, paragraph "Representing Gamma" in the paper for more details
+        std::vector<  std::pair<  math::SparseVector<BN>, math::SparseVector<BN>  >  > vectors;
 
         friend std::ostream& operator<<(std::ostream& stream, const SparseMatrix& x);
 

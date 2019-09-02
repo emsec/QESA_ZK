@@ -96,22 +96,22 @@ bool benchmark_arith_circuit()
         {
             cnt++;
             BN eval = 0;
-            for (const auto &tup : mat.vectors)
+            for (const auto& [a, b] : mat.vectors)
             {
-                eval += ((std::get<0>(tup) * witness) * (std::get<1>(tup) * witness)) % G::order();
+                eval += ((a * witness) * (b * witness)) % G::order();
             }
             eval %= G::order();
             if (eval != 0)
             {
                 std::cout << "ERROR at matrix " << cnt << std::endl;
                 std::cout << mat << std::endl;
-                for (const auto &tup : mat.vectors)
+                for (const auto& [a, b] : mat.vectors)
                 {
-                    for (auto it = std::get<0>(tup).begin(); it != std::get<0>(tup).end(); ++it)
+                    for (auto it = a.begin(); it != a.end(); ++it)
                     {
                         std::cout << "_" << it.index() << "_ = " << witness[it.index()] << "_16" << std::endl;
                     }
-                    for (auto it = std::get<1>(tup).begin(); it != std::get<1>(tup).end(); ++it)
+                    for (auto it = b.begin(); it != b.end(); ++it)
                     {
                         std::cout << "_" << it.index() << "_ = " << witness[it.index()] << "_16" << std::endl;
                     }

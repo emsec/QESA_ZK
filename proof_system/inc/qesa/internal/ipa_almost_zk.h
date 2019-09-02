@@ -12,6 +12,7 @@ namespace qesa
         void begin(ProverContext& ctx, const CRS& crs, const math::vector<BN>& w_p, const math::vector<BN>& w_pp, const BN& t);
         void begin(VerifierContext& ctx, const CRS& crs, const G& c, const BN& t);
 
+        // step prover has to be called first
         bool step_prover(ProverContext& ctx, std::vector<u8>& buffer);
         bool step_verifier(VerifierContext& ctx, std::vector<u8>& buffer);
 

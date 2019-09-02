@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 import sys
 import os
-from circuit import *
-from parser import parse_arith_circuit
+from internal.circuit import *
+from internal.parser import parse_arith_circuit
 
 def to_hex(s):
     return format(s, 'x')

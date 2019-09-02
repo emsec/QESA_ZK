@@ -1,21 +1,19 @@
 #!/usr/bin/python3
 import sys
 import os
-from circuit import *
-from parser import parse_arith_circuit
-import move_constant_input
-import insert_quadratic_gates
-import insert_padding_gates
-import propagate_zero
-import generate_matrices
+from internal.circuit import *
+from internal.parser import parse_arith_circuit
+from internal import move_constant_input
+from internal import insert_quadratic_gates
+from internal import insert_padding_gates
+from internal import propagate_zero
+from internal import generate_matrices
 import generate_witness
-import pickle
 
 def to_hex(s):
     return format(s, 'x')
 
 def process(circuit):
-    # circuit = pickle.load(open("state.p","rb"))
     matrices = None
     witness = None
 
@@ -34,22 +32,18 @@ def process(circuit):
 
     print("  inserting quadratic gates")
     insert_quadratic_gates.process(circuit)
-    # pickle.dump(circuit, open("state.p", "wb"))
 
     print("  propagating constant 0")
     propagate_zero.process(circuit)
-    # pickle.dump(circuit, open("state.p", "wb"))
 
     print("  removing floating gates")
     circuit.remove_floating_gates()
-    # pickle.dump(circuit, open("state.p", "wb"))
 
     print("  restructuring wires")
     circuit.restructure_wires()
 
     print("  sorting")
     circuit.sort()
-    # pickle.dump(circuit, open("state.p", "wb"))
 
     print("  new circuit: #gates = "+str(len(circuit.gates)))
 

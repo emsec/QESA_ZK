@@ -1,5 +1,5 @@
-from circuit import *
-from arith import *
+from internal.circuit import *
+from internal.arith import *
 
 def var(x):
     return "_"+str(x)+"_"

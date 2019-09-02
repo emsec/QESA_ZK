@@ -28,9 +28,15 @@ namespace shuffle_proof
     // methods
     // ##################################
 
+    /*
+     * Generates a new CRS that is appropriate for the shuffle proof you want to show.
+     */
     CRS gen_CRS(u32 shuffle_size);
 
-
+    /*
+     * Protocol initiation:
+     * Prover and verifier have to initialize their contexts with these functions.
+     */
     void begin(ProverContext& ctx,
                const std::vector<el_gamal::Ciphertext>& c_old,
                const std::vector<el_gamal::Ciphertext>& c_new,
@@ -47,12 +53,15 @@ namespace shuffle_proof
      * Protocol execution:
      * step_prover and step_verifier have to be called alternatingly, step_prover has to be called first.
      * Both functions take their respective context and a buffer for the network packet as input.
-     * The buffer is read by the function and filled with the new outputs.
-     * Both functions return whether the protocol is still running.
+     * The buffer is read by the function, cleared, and filled with the new outputs.
+     * Both functions return true if the protocol is still running, i.e., if they need to be called again on the partners response.
      */
     bool step_prover(ProverContext& ctx, std::vector<u8>& buffer);
     bool step_verifier(VerifierContext& ctx, std::vector<u8>& buffer);
 
+    /*
+     * Given a VerifierContext after protocol execution, this returns true if the proof was correct.
+     */
     bool get_result(VerifierContext& ctx);
 
     // ##################################

@@ -1,4 +1,4 @@
-from circuit import *
+from internal.circuit import *
 
 def process(circuit):
     to_add = list()

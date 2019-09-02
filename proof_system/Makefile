@@ -43,8 +43,8 @@ OUTPUT = out
 ARGS =
 
 # Compilers
-CC  = clang
-CXX = clang++
+#CC  = clang
+#CXX = clang++
 
 # Verbosity flag
 V = 0

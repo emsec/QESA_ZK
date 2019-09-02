@@ -19,7 +19,7 @@ namespace qesa
     {
         for (u32 i = 0; i < x.vectors.size(); ++i)
         {
-            stream << "(" << std::get<0>(x.vectors.at(i)) << ") * (" << std::get<1>(x.vectors.at(i)) << ")";
+            stream << "(" << x.vectors.at(i).first << ") * (" << x.vectors.at(i).second << ")";
             if (i == x.vectors.size() - 1)
             {
                 stream << " = 0";
